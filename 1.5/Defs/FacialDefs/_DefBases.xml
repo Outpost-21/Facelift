@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<Facelift.FaceFeatureDef Name="HumanFacialFeatureBase" Abstract="true">
+		<allowedTags>
+			<li>Human</li>
+		</allowedTags>
+	</Facelift.FaceFeatureDef>
+	
+</Defs>

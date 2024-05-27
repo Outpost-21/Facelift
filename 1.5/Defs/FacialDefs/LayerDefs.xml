@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<Facelift.LayerDef>
+		<defName>Wrinkles</defName>
+		<label>wrinkles</label>
+		<defaultFeature>Facelift_Wrinkles_None</defaultFeature>
+	</Facelift.LayerDef>
+
+	<Facelift.LayerDef>
+		<defName>SkinDecor</defName>
+		<label>skin decor</label>
+		<defaultFeature>Facelift_SkinDecor_None</defaultFeature>
+	</Facelift.LayerDef>
+
+	<Facelift.LayerDef>
+		<defName>Blush</defName>
+		<label>blush</label>
+		<defaultFeature>Facelift_Blush_None</defaultFeature>
+	</Facelift.LayerDef>
+
+	<Facelift.LayerDef>
+		<defName>Makeup</defName>
+		<label>makeup</label>
+		<defaultFeature>Facelift_Makeup_None</defaultFeature>
+	</Facelift.LayerDef>
+
+	<Facelift.LayerDef>
+		<defName>Mouth</defName>
+		<label>mouth</label>
+		<defaultFeature>Facelift_Mouth_None</defaultFeature>
+	</Facelift.LayerDef>
+
+	<Facelift.LayerDef>
+		<defName>Eyes</defName>
+		<label>eyes</label>
+		<defaultFeature>Facelift_Eyes_None</defaultFeature>
+	</Facelift.LayerDef>
+
+	<Facelift.LayerDef>
+		<defName>Eyebrows</defName>
+		<label>eyebrows</label>
+		<defaultFeature>Facelift_Brow_None</defaultFeature>
+	</Facelift.LayerDef>
+
+	<Facelift.LayerDef>
+		<defName>Piercings</defName>
+		<label>piercings</label>
+		<defaultFeature>Facelift_Piercings_None</defaultFeature>
+	</Facelift.LayerDef>
+
+	<Facelift.LayerDef>
+		<defName>Glasses</defName>
+		<label>glasses</label>
+		<defaultFeature>Facelift_Glasses_None</defaultFeature>
+	</Facelift.LayerDef>
+
+</Defs>

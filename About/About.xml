@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Facelift</name>
+	<author>Neronix17 and Oracle of Thessia</author>
+	<packageId>Neronix17.Facelift</packageId>
+	<url>https://www.patreon.com/neronix17</url>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Detailed pawn faces in a vanilla style. Performant, extendable and compatible. Patches are only needed to add the functionality to modded head types, unpatched heads will simply follow the normal appearance.</description>
+</ModMetaData>

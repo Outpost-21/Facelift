@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<Facelift.FaceFeatureDef>
+		<defName>Facelift_SkinDecor_None</defName>
+		<label>None</label>
+		<noGraphic>true</noGraphic>
+		<canGenerateNormally>true</canGenerateNormally>
+		<commonality>100</commonality>
+		<layerDef>SkinDecor</layerDef>
+	</Facelift.FaceFeatureDef>
+
+</Defs>

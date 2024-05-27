@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<Facelift.FaceFeatureDef>
+		<defName>Facelift_Wrinkles_None</defName>
+		<label>None</label>
+		<noGraphic>true</noGraphic>
+		<canGenerateNormally>true</canGenerateNormally>
+		<layerDef>Wrinkles</layerDef>
+	</Facelift.FaceFeatureDef>
+
+</Defs>

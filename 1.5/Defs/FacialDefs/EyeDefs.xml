@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<Facelift.EyeTypeDef>
+		<defName>Facelift_Eyes_None</defName>
+		<label>None</label>
+		<noGraphic>true</noGraphic>
+		<canGenerateNormally>false</canGenerateNormally>
+		<layerDef>Eyes</layerDef>
+	</Facelift.EyeTypeDef>
+
+	<Facelift.EyeTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Eyes_Normal</defName>
+		<label>Normal</label>
+		<open>
+			<texPath>Facelift/Eyes/Normal/Male/Open</texPath>
+			<texPathFemale>Facelift/Eyes/Normal/Female/Open</texPathFemale>
+		</open>
+		<closed>
+			<texPath>Facelift/Eyes/Normal/Male/Closed</texPath>
+			<texPathFemale>Facelift/Eyes/Normal/Female/Closed</texPathFemale>
+		</closed>
+		<layerDef>Eyes</layerDef>
+	</Facelift.EyeTypeDef>
+
+	<Facelift.EyeTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Eyes_Almond</defName>
+		<label>Almond</label>
+		<gender>Female</gender>
+		<open>
+			<texPath>Facelift/Eyes/Almond/Male/Open</texPath>
+			<texPathFemale>Facelift/Eyes/Almond/Female/Open</texPathFemale>
+		</open>
+		<closed>
+			<texPath>Facelift/Eyes/Almond/Male/Closed</texPath>
+			<texPathFemale>Facelift/Eyes/Almond/Female/Closed</texPathFemale>
+		</closed>
+		<layerDef>Eyes</layerDef>
+	</Facelift.EyeTypeDef>
+
+</Defs>

@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<Facelift.BrowTypeDef>
+		<defName>Facelift_Brow_None</defName>
+		<label>None</label>
+		<noGraphic>true</noGraphic>
+		<canGenerateNormally>false</canGenerateNormally>
+		<layerDef>Eyebrows</layerDef>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_Normal</defName>
+		<label>Normal</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/Normal/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/Normal/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/Normal/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/Normal/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/Normal/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/Normal/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/Normal/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/Normal/Female/Angry</texPathFemale>
+		</angry>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_Even</defName>
+		<label>Even</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/Even/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/Even/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/Even/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/Even/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/Even/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/Even/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/Even/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/Even/Female/Angry</texPathFemale>
+		</angry>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_Fuzzy</defName>
+		<label>Fuzzy</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/Fuzzy/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/Fuzzy/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/Fuzzy/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/Fuzzy/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/Fuzzy/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/Fuzzy/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/Fuzzy/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/Fuzzy/Female/Angry</texPathFemale>
+		</angry>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_Mono</defName>
+		<label>Mono</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/Mono/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/Mono/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/Mono/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/Mono/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/Mono/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/Mono/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/Mono/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/Mono/Female/Angry</texPathFemale>
+		</angry>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_MonoFurry</defName>
+		<label>Mono Furry</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/MonoFurry/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/MonoFurry/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/MonoFurry/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/MonoFurry/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/MonoFurry/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/MonoFurry/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/MonoFurry/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/MonoFurry/Female/Angry</texPathFemale>
+		</angry>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_MrStreamer</defName>
+		<label>Mr Streamer</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/MrStreamer/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/MrStreamer/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/MrStreamer/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/MrStreamer/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/MrStreamer/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/MrStreamer/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/MrStreamer/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/MrStreamer/Female/Angry</texPathFemale>
+		</angry>
+		<canGenerateNormally>false</canGenerateNormally>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_Raised</defName>
+		<label>Raised</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/Raised/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/Raised/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/Raised/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/Raised/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/Raised/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/Raised/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/Raised/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/Raised/Female/Angry</texPathFemale>
+		</angry>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_Scarred</defName>
+		<label>Scarred</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/Scarred/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/Scarred/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/Scarred/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/Scarred/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/Scarred/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/Scarred/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/Scarred/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/Scarred/Female/Angry</texPathFemale>
+		</angry>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_Square</defName>
+		<label>Square</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/Square/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/Square/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/Square/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/Square/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/Square/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/Square/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/Square/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/Square/Female/Angry</texPathFemale>
+		</angry>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_Thin</defName>
+		<label>Thin</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/Thin/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/Thin/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/Thin/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/Thin/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/Thin/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/Thin/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/Thin/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/Thin/Female/Angry</texPathFemale>
+		</angry>
+	</Facelift.BrowTypeDef>
+
+	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Brow_Triangle</defName>
+		<label>Triangle</label>
+		<layerDef>Eyebrows</layerDef>
+		<neutral>
+			<texPath>Facelift/Brows/Triangle/Male/Neutral</texPath>
+			<texPathFemale>Facelift/Brows/Triangle/Female/Neutral</texPathFemale>
+		</neutral>
+		<happy>
+			<texPath>Facelift/Brows/Triangle/Male/Happy</texPath>
+			<texPathFemale>Facelift/Brows/Triangle/Female/Happy</texPathFemale>
+		</happy>
+		<sad>
+			<texPath>Facelift/Brows/Triangle/Male/Sad</texPath>
+			<texPathFemale>Facelift/Brows/Triangle/Female/Sad</texPathFemale>
+		</sad>
+		<angry>
+			<texPath>Facelift/Brows/Triangle/Male/Angry</texPath>
+			<texPathFemale>Facelift/Brows/Triangle/Female/Angry</texPathFemale>
+		</angry>
+	</Facelift.BrowTypeDef>
+
+</Defs>

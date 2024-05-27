@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<Facelift.FaceFeatureDef>
+		<defName>Facelift_Blush_None</defName>
+		<label>None</label>
+		<noGraphic>true</noGraphic>
+		<canGenerateNormally>false</canGenerateNormally>
+		<layerDef>Blush</layerDef>
+	</Facelift.FaceFeatureDef>
+
+</Defs>

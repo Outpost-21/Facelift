@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+	<Operation Class="PatchOperationAddModExtension">
+		<xpath>/Defs/HeadTypeDef[defName="Male_AverageNormal"
+			or defName="Male_AveragePointy"
+			or defName="Male_AverageWide"
+			or defName="Male_NarrowNormal"
+			or defName="Male_NarrowPointy"
+			or defName="Male_NarrowWide"
+			or defName="Female_AverageNormal"
+			or defName="Female_AveragePointy"
+			or defName="Female_AverageWide"
+			or defName="Female_NarrowNormal"
+			or defName="Female_NarrowPointy"
+			or defName="Female_NarrowWide"]</xpath>
+		<value>
+			<li Class="Facelift.DefModExt_Facelift">
+				<allowedLayers>
+					<li>Wrinkles</li>
+					<li>SkinDecor</li>
+					<li>Blush</li>
+					<li>Makeup</li>
+					<li>Mouth</li>
+					<li>Eyes</li>
+					<li>Eyebrows</li>
+					<li>Piercings</li>
+					<li>Glasses</li>
+				</allowedLayers>
+				<allowedTags>
+					<li>Human</li>
+				</allowedTags>
+			</li>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HeadTypeDef[defName="Male_AverageNormal" or defName="Male_NarrowNormal"]/graphicPath</xpath>
+		<value>
+			<graphicPath>Facelift/Heads/Normal/Male/Normal</graphicPath>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HeadTypeDef[defName="Female_AverageNormal" or defName="Female_NarrowNormal"]/graphicPath</xpath>
+		<value>
+			<graphicPath>Facelift/Heads/Normal/Female/Normal</graphicPath>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HeadTypeDef[defName="Male_AveragePointy" 
+			or defName="Male_NarrowPointy"
+			or defName="Female_AveragePointy"
+			or defName="Female_NarrowPointy"]/graphicPath</xpath>
+		<value>
+			<graphicPath>Facelift/Heads/Pointy/Normal</graphicPath>
+		</value>
+	</Operation>
+
+	<Operation Class="PatchOperationReplace">
+		<xpath>/Defs/HeadTypeDef[defName="Male_AverageWide" 
+			or defName="Male_NarrowWide"
+			or defName="Female_AverageWide"
+			or defName="Female_NarrowWide"]/graphicPath</xpath>
+		<value>
+			<graphicPath>Facelift/Heads/Square/Normal</graphicPath>
+		</value>
+	</Operation>
+
+</Patch>
