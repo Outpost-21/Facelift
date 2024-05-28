@@ -21,45 +21,10 @@ namespace Facelift
             DefModExt_Facelift modExt = pawn?.story?.headType?.GetModExtension<DefModExt_Facelift>();
             if(modExt == null)
             {
-                LogUtil.LogWarning($"DefModExt_Facelift is returning null for head type: {pawn?.story?.headType?.defName ?? "None"}");
+                LogUtil.LogMessage($"Debug: DefModExt_Facelift is returning null for head type: {pawn?.story?.headType?.defName ?? "None"}\nIt likely just isn't compatible, if it's retuning None then it's an issue with the pawn having no head, which is fine.");
             }
             return modExt;
         }
-
-        //public static BrowTypeDef GenerateBrowDef(Pawn pawn)
-        //{
-        //    DefModExt_Facelift modExt = GetFaceliftExtension(pawn);
-        //    if(modExt == null) { return FaceliftDefOf.Facelift_Brow_None; }
-        //    return GetCompatibleBrowDefs(pawn, modExt)?.RandomElement() ?? FaceliftDefOf.Facelift_Brow_None;
-        //}
-
-        //public static EyeTypeDef GenerateEyesDef(Pawn pawn)
-        //{
-        //    DefModExt_Facelift modExt = GetFaceliftExtension(pawn);
-        //    if (modExt == null) { return FaceliftDefOf.Facelift_Eyes_None; }
-        //    return GetCompatibleEyeDefs(pawn, modExt)?.RandomElement() ?? FaceliftDefOf.Facelift_Eyes_None;
-        //}
-
-        //public static GlassesTypeDef GenerateGlassesDef(Pawn pawn)
-        //{
-        //    DefModExt_Facelift modExt = GetFaceliftExtension(pawn);
-        //    if (modExt == null) { return FaceliftDefOf.Facelift_Glasses_None; }
-        //    return GetCompatibleGlassesDefs(pawn, modExt)?.RandomElement() ?? FaceliftDefOf.Facelift_Glasses_None;
-        //}
-
-        //public static MouthTypeDef GenerateMouthDef(Pawn pawn)
-        //{
-        //    DefModExt_Facelift modExt = GetFaceliftExtension(pawn);
-        //    if (modExt == null) { return FaceliftDefOf.Facelift_Mouth_None; }
-        //    return GetCompatibleMouthDefs(pawn, modExt)?.RandomElement() ?? FaceliftDefOf.Facelift_Mouth_None;
-        //}
-
-        //public static SkinDecorTypeDef GenerateSkinDecorDef(Pawn pawn)
-        //{
-        //    DefModExt_Facelift modExt = GetFaceliftExtension(pawn);
-        //    if (modExt == null) { return FaceliftDefOf.Facelift_Decor_None; }
-        //    return GetCompatibleSkinDecorDefs(pawn, modExt)?.RandomElement() ?? FaceliftDefOf.Facelift_Decor_None;
-        //}
 
         public static FaceFeatureDef GenerateLayerDef(Pawn pawn, LayerDef layer)
         {
@@ -83,71 +48,6 @@ namespace Facelift
             }
             return results;
         }
-
-        //public static List<BrowTypeDef> GetCompatibleBrowDefs(Pawn pawn, DefModExt_Facelift modExt)
-        //{
-        //    List<BrowTypeDef> results = new List<BrowTypeDef>();
-        //    foreach (BrowTypeDef def in DefDatabase<BrowTypeDef>.AllDefs)
-        //    {
-        //        if (def.canGenerateNormally && (def.gender == null || def.gender == Gender.None || def.gender == pawn.gender) && modExt.IsHeadCompatibleWithFeature(def))
-        //        {
-        //            results.Add(def);
-        //        }
-        //    }
-        //    return results;
-        //}
-
-        //public static List<EyeTypeDef> GetCompatibleEyeDefs(Pawn pawn, DefModExt_Facelift modExt)
-        //{
-        //    List<EyeTypeDef> results = new List<EyeTypeDef>();
-        //    foreach (EyeTypeDef def in DefDatabase<EyeTypeDef>.AllDefs)
-        //    {
-        //        if (def.canGenerateNormally && (def.gender == null || def.gender == Gender.None || def.gender == pawn.gender) && modExt.IsHeadCompatibleWithFeature(def))
-        //        {
-        //            results.Add(def);
-        //        }
-        //    }
-        //    return results;
-        //}
-
-        //public static List<GlassesTypeDef> GetCompatibleGlassesDefs(Pawn pawn, DefModExt_Facelift modExt)
-        //{
-        //    List<GlassesTypeDef> results = new List<GlassesTypeDef>();
-        //    foreach (GlassesTypeDef def in DefDatabase<GlassesTypeDef>.AllDefs)
-        //    {
-        //        if (def.canGenerateNormally && (def.gender == null || def.gender == Gender.None || def.gender == pawn.gender) && modExt.IsHeadCompatibleWithFeature(def))
-        //        {
-        //            results.Add(def);
-        //        }
-        //    }
-        //    return results;
-        //}
-
-        //public static List<MouthTypeDef> GetCompatibleMouthDefs(Pawn pawn, DefModExt_Facelift modExt)
-        //{
-        //    List<MouthTypeDef> results = new List<MouthTypeDef>();
-        //    foreach(MouthTypeDef def in DefDatabase<MouthTypeDef>.AllDefs)
-        //    {
-        //        if(def.canGenerateNormally && (def.gender == null || def.gender == Gender.None || def.gender == pawn.gender) && modExt.IsHeadCompatibleWithFeature(def))
-        //        {
-        //            results.Add(def);
-        //        }
-        //    }
-        //    return results;
-        //}
-
-        //public static List<SkinDecorTypeDef> GetCompatibleSkinDecorDefs(Pawn pawn, DefModExt_Facelift modExt)
-        //{
-        //    List<SkinDecorTypeDef> results = new List<SkinDecorTypeDef>();
-        //    foreach (SkinDecorTypeDef def in DefDatabase<SkinDecorTypeDef>.AllDefs)
-        //    {
-        //        if (def.canGenerateNormally  && (def.gender == null || def.gender == Gender.None || def.gender == pawn.gender) && modExt.IsHeadCompatibleWithFeature(def))
-        //        {
-        //            results.Add(def);
-        //        }
-        //    }
-        //    return results;
-        //}
 
         public static bool IsHeadCompatibleWithFeature(this DefModExt_Facelift modExt, FaceFeatureDef feature)
         {

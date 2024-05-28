@@ -25,70 +25,10 @@ namespace Facelift
             return faceFeatures[layer].GraphicFor(pawn);
         }
 
-        //public Graphic BrowGraphic
-        //{
-        //    get
-        //    {
-        //        if(BrowTypeDef == null)
-        //        {
-        //            BrowTypeDef = FaceliftUtil.GenerateBrowDef(pawn);
-        //        }
-        //        return BrowTypeDef.GraphicFor(pawn);
-        //    }
-        //}
-
-        //public Graphic EyesGraphic
-        //{
-        //    get
-        //    {
-        //        if (EyeTypeDef == null)
-        //        {
-        //            EyeTypeDef = FaceliftUtil.GenerateEyesDef(pawn);
-        //        }
-        //        return EyeTypeDef.GraphicFor(pawn);
-        //    }
-        //}
-
-        //public Graphic MouthGraphic
-        //{
-        //    get
-        //    {
-        //        if (MouthTypeDef == null)
-        //        {
-        //            MouthTypeDef = FaceliftUtil.GenerateMouthDef(pawn);
-        //        }
-        //        return MouthTypeDef.GraphicFor(pawn);
-        //    }
-        //}
-
-        //public Graphic DecorGraphic
-        //{
-        //    get
-        //    {
-        //        if (SkinDecorTypeDef == null)
-        //        {
-        //            SkinDecorTypeDef = FaceliftUtil.GenerateSkinDecorDef(pawn);
-        //        }
-        //        return SkinDecorTypeDef.GraphicFor(pawn);
-        //    }
-        //}
-
-        //public Graphic GlassesGraphic
-        //{
-        //    get
-        //    {
-        //        if (GlassesTypeDef == null)
-        //        {
-        //            GlassesTypeDef = FaceliftUtil.GenerateGlassesDef(pawn);
-        //        }
-        //        return GlassesTypeDef.GraphicFor(pawn);
-        //    }
-        //}
-
         public void ExposeData()
         {
             Scribe_References.Look(ref pawn, "pawn");
-            Scribe_Collections.Look(ref faceFeatures, "faceFeatures");
+            Scribe_Collections.Look(ref faceFeatures, "faceFeatures", LookMode.Value);
         }
     }
 }
