@@ -22,6 +22,6 @@ Fuck no, but I have no doubt some of you will try anyway.
 #### How does this handle modded heads?
 By simply ignoring them if they aren't patched. They'll default to vanilla behaviour if they aren't set up to be handled.
 #### How is this better for performance?
-It might not be! I'm only human and it may end up worse with some mod combinations. However I'm making a point of at least not making it redraw the whole pawn *constantly* like a certain other mod that can cause major TPS issues with any other mods patching pawn rendering.
+It might not be! I'm only human and it may end up worse with some mod combinations. However I'm making a point of at least trying to make it as performant as possible.
 #### What mods will this natively support? (a.k.a "Which mods will be patched by you, slave?")
 Only the ones I use, if I don't use it then I don't give a fuck.
