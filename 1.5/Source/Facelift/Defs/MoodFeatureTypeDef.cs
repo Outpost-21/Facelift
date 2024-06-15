@@ -9,7 +9,7 @@ using Verse;
 
 namespace Facelift
 {
-    public class BrowTypeDef : FaceFeatureDef
+    public class MoodFeatureTypeDef : FaceFeatureDef
     {
         public GenderedGraphic neutral;
         public GenderedGraphic happy;

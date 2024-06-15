@@ -40,6 +40,8 @@ namespace Facelift
 
         public string customCatgegory;
 
+        public Vector2 offset = Vector2.zero;
+
         [Unsaved]
         public Texture2D iconTexture;
 

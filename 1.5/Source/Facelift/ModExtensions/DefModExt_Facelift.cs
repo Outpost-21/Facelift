@@ -14,5 +14,9 @@ namespace Facelift
         public List<LayerDef> allowedLayers = new List<LayerDef>();
 
         public List<string> allowedTags = new List<string>();
+
+        public List<LayerOffset> layerOffsets = new List<LayerOffset>();
+
+        public List<LayerOffset> layerScale = new List<LayerOffset>();
     }
 }

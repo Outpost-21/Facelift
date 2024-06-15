@@ -6,7 +6,7 @@
 		<xpath>/Defs/PawnRenderTreeDef[defName="Humanlike"]/root/children/li[tagDef="Head"]/children/li[debugLabel="Head tattoo"]</xpath>
 		<value>
 			<li Class="Facelift.PawnRenderNodeProperties_FaceFeature">
-				<debugLabel>FF_Wrinkles</debugLabel>
+				<debugLabel>Facelift_Wrinkles</debugLabel>
 				<nodeClass>Facelift.PawnRenderNode_FaceFeature</nodeClass>
 				<workerClass>Facelift.PawnRenderNodeWorker_FaceFeature</workerClass>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -14,7 +14,7 @@
 				<layerDef>Wrinkles</layerDef>
 			</li>
 			<li Class="Facelift.PawnRenderNodeProperties_FaceFeature">
-				<debugLabel>FF_SkinDecor</debugLabel>
+				<debugLabel>Facelift_SkinDecor</debugLabel>
 				<nodeClass>Facelift.PawnRenderNode_FaceFeature</nodeClass>
 				<workerClass>Facelift.PawnRenderNodeWorker_FaceFeature</workerClass>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -22,7 +22,7 @@
 				<layerDef>SkinDecor</layerDef>
 			</li>
 			<li Class="Facelift.PawnRenderNodeProperties_FaceFeature">
-				<debugLabel>FF_Blush</debugLabel>
+				<debugLabel>Facelift_Blush</debugLabel>
 				<nodeClass>Facelift.PawnRenderNode_FaceFeature</nodeClass>
 				<workerClass>Facelift.PawnRenderNodeWorker_Blush</workerClass>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -30,7 +30,7 @@
 				<layerDef>Blush</layerDef>
 			</li>
 			<li Class="Facelift.PawnRenderNodeProperties_FaceFeature">
-				<debugLabel>FF_Makeup</debugLabel>
+				<debugLabel>Facelift_Makeup</debugLabel>
 				<nodeClass>Facelift.PawnRenderNode_FaceFeature</nodeClass>
 				<workerClass>Facelift.PawnRenderNodeWorker_FaceFeature</workerClass>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -38,7 +38,7 @@
 				<layerDef>Makeup</layerDef>
 			</li>
 			<li Class="Facelift.PawnRenderNodeProperties_FaceFeature">
-				<debugLabel>FF_Mouth</debugLabel>
+				<debugLabel>Facelift_Mouth</debugLabel>
 				<nodeClass>Facelift.PawnRenderNode_Mouth</nodeClass>
 				<workerClass>Facelift.PawnRenderNodeWorker_Mouth</workerClass>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -46,7 +46,7 @@
 				<layerDef>Mouth</layerDef>
 			</li>
 			<li Class="Facelift.PawnRenderNodeProperties_FaceFeature">
-				<debugLabel>FF_Eyes</debugLabel>
+				<debugLabel>Facelift_Eyes</debugLabel>
 				<nodeClass>Facelift.PawnRenderNode_Eyes</nodeClass>
 				<workerClass>Facelift.PawnRenderNodeWorker_Eyes</workerClass>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -54,7 +54,7 @@
 				<layerDef>Eyes</layerDef>
 			</li>
 			<li Class="Facelift.PawnRenderNodeProperties_FaceFeature">
-				<debugLabel>FF_Brow</debugLabel>
+				<debugLabel>Facelift_Brow</debugLabel>
 				<nodeClass>Facelift.PawnRenderNode_Brow</nodeClass>
 				<workerClass>Facelift.PawnRenderNodeWorker_Brow</workerClass>
 				<rotDrawMode>Fresh, Rotting</rotDrawMode>
@@ -62,7 +62,7 @@
 				<layerDef>Eyebrows</layerDef>
 			</li>
 			<li Class="Facelift.PawnRenderNodeProperties_FaceFeature">
-				<debugLabel>FF_Piercings</debugLabel>
+				<debugLabel>Facelift_Piercings</debugLabel>
 				<nodeClass>Facelift.PawnRenderNode_FaceFeature</nodeClass>
 				<workerClass>Facelift.PawnRenderNodeWorker_FaceFeature</workerClass>
 				<rotDrawMode>Fresh, Rotting, Dessicated</rotDrawMode>
@@ -70,7 +70,7 @@
 				<layerDef>Piercings</layerDef>
 			</li>
 			<li Class="Facelift.PawnRenderNodeProperties_FaceFeature">
-				<debugLabel>FF_Glasses</debugLabel>
+				<debugLabel>Facelift_Glasses</debugLabel>
 				<nodeClass>Facelift.PawnRenderNode_FaceFeature</nodeClass>
 				<workerClass>Facelift.PawnRenderNodeWorker_FaceFeature</workerClass>
 				<rotDrawMode>Fresh, Rotting, Dessicated</rotDrawMode>

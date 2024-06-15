@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<Facelift.BrowTypeDef>
+	<Facelift.MoodFeatureTypeDef>
 		<defName>Facelift_Brow_None</defName>
 		<label>None</label>
 		<noGraphic>true</noGraphic>
 		<canGenerateNormally>false</canGenerateNormally>
 		<layerDef>Eyebrows</layerDef>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_Normal</defName>
 		<label>Normal</label>
 		<layerDef>Eyebrows</layerDef>
@@ -29,9 +29,9 @@
 			<texPath>Facelift/Brows/Normal/Male/Angry</texPath>
 			<texPathFemale>Facelift/Brows/Normal/Female/Angry</texPathFemale>
 		</angry>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_Even</defName>
 		<label>Even</label>
 		<layerDef>Eyebrows</layerDef>
@@ -51,9 +51,9 @@
 			<texPath>Facelift/Brows/Even/Male/Angry</texPath>
 			<texPathFemale>Facelift/Brows/Even/Female/Angry</texPathFemale>
 		</angry>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_Fuzzy</defName>
 		<label>Fuzzy</label>
 		<layerDef>Eyebrows</layerDef>
@@ -73,9 +73,9 @@
 			<texPath>Facelift/Brows/Fuzzy/Male/Angry</texPath>
 			<texPathFemale>Facelift/Brows/Fuzzy/Female/Angry</texPathFemale>
 		</angry>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_Mono</defName>
 		<label>Mono</label>
 		<layerDef>Eyebrows</layerDef>
@@ -95,9 +95,9 @@
 			<texPath>Facelift/Brows/Mono/Male/Angry</texPath>
 			<texPathFemale>Facelift/Brows/Mono/Female/Angry</texPathFemale>
 		</angry>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_MonoFurry</defName>
 		<label>Mono Furry</label>
 		<layerDef>Eyebrows</layerDef>
@@ -117,9 +117,9 @@
 			<texPath>Facelift/Brows/MonoFurry/Male/Angry</texPath>
 			<texPathFemale>Facelift/Brows/MonoFurry/Female/Angry</texPathFemale>
 		</angry>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_MrStreamer</defName>
 		<label>Mr Streamer</label>
 		<layerDef>Eyebrows</layerDef>
@@ -140,9 +140,9 @@
 			<texPathFemale>Facelift/Brows/MrStreamer/Female/Angry</texPathFemale>
 		</angry>
 		<canGenerateNormally>false</canGenerateNormally>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_Raised</defName>
 		<label>Raised</label>
 		<layerDef>Eyebrows</layerDef>
@@ -162,9 +162,9 @@
 			<texPath>Facelift/Brows/Raised/Male/Angry</texPath>
 			<texPathFemale>Facelift/Brows/Raised/Female/Angry</texPathFemale>
 		</angry>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_Scarred</defName>
 		<label>Scarred</label>
 		<layerDef>Eyebrows</layerDef>
@@ -184,9 +184,9 @@
 			<texPath>Facelift/Brows/Scarred/Male/Angry</texPath>
 			<texPathFemale>Facelift/Brows/Scarred/Female/Angry</texPathFemale>
 		</angry>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_Square</defName>
 		<label>Square</label>
 		<layerDef>Eyebrows</layerDef>
@@ -206,9 +206,9 @@
 			<texPath>Facelift/Brows/Square/Male/Angry</texPath>
 			<texPathFemale>Facelift/Brows/Square/Female/Angry</texPathFemale>
 		</angry>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_Thin</defName>
 		<label>Thin</label>
 		<layerDef>Eyebrows</layerDef>
@@ -228,9 +228,9 @@
 			<texPath>Facelift/Brows/Thin/Male/Angry</texPath>
 			<texPathFemale>Facelift/Brows/Thin/Female/Angry</texPathFemale>
 		</angry>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
-	<Facelift.BrowTypeDef ParentName="HumanFacialFeatureBase">
+	<Facelift.MoodFeatureTypeDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Brow_Triangle</defName>
 		<label>Triangle</label>
 		<layerDef>Eyebrows</layerDef>
@@ -250,6 +250,6 @@
 			<texPath>Facelift/Brows/Triangle/Male/Angry</texPath>
 			<texPathFemale>Facelift/Brows/Triangle/Female/Angry</texPathFemale>
 		</angry>
-	</Facelift.BrowTypeDef>
+	</Facelift.MoodFeatureTypeDef>
 
 </Defs>

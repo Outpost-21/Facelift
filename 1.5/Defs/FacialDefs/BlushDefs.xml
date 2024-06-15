@@ -9,4 +9,14 @@
 		<layerDef>Blush</layerDef>
 	</Facelift.FaceFeatureDef>
 
+	<Facelift.FaceFeatureDef>
+		<defName>Facelift_Blush_Human</defName>
+		<label>Human</label>
+		<layerDef>Blush</layerDef>
+		<allowedTags>
+			<li>Human</li>
+		</allowedTags>
+		<texPath>Facelift/Blush/Human/Blush</texPath>
+	</Facelift.FaceFeatureDef>
+
 </Defs>

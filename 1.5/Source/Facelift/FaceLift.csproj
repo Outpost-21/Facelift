@@ -83,9 +83,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Data\FaceStateNode_Mood.cs" />
+    <Compile Include="Data\FaceStateNode.cs" />
+    <Compile Include="Data\LayerOffset.cs" />
     <Compile Include="Data\MoodType.cs" />
     <Compile Include="Defs\FaceFeatureDef.cs" />
-    <Compile Include="Defs\BrowTypeDef.cs" />
+    <Compile Include="Defs\MoodFeatureTypeDef.cs" />
     <Compile Include="Defs\EyeTypeDef.cs" />
     <Compile Include="Data\FaceData.cs" />
     <Compile Include="Data\GenderedGraphic.cs" />
@@ -93,6 +96,10 @@
     <Compile Include="FaceliftDefOf.cs" />
     <Compile Include="Data\PartColorType.cs" />
     <Compile Include="Defs\LayerDef.cs" />
+    <Compile Include="Defs\FaceStateTreeDef.cs" />
+    <Compile Include="Defs\FaceStateDef.cs" />
+    <Compile Include="Data\FaceStateTreeNode.cs" />
+    <Compile Include="UI\ITab_Facelift.cs" />
     <Compile Include="RenderNodes\PawnRenderNodeProperties_FaceFeature.cs" />
     <Compile Include="Utilities\FaceliftUtil.cs" />
     <Compile Include="ModExtensions\DefModExt_Facelift.cs" />

@@ -1,13 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
 
-	<Facelift.FaceFeatureDef>
+	<Facelift.FaceFeatureDef ParentName="HumanFacialFeatureBase">
 		<defName>Facelift_Glasses_None</defName>
 		<label>None</label>
 		<noGraphic>true</noGraphic>
 		<canGenerateNormally>true</canGenerateNormally>
 		<commonality>100</commonality>
 		<layerDef>Glasses</layerDef>
+	</Facelift.FaceFeatureDef>
+
+	<Facelift.FaceFeatureDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Glasses_Basic</defName>
+		<label>Basic</label>
+		<layerDef>Glasses</layerDef>
+		<commonality>3</commonality>
+		<texPath>Facelift/Glasses/Basic</texPath>
+	</Facelift.FaceFeatureDef>
+
+	<Facelift.FaceFeatureDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Glasses_CatEye</defName>
+		<label>Cat Eye</label>
+		<layerDef>Glasses</layerDef>
+		<commonality>3</commonality>
+		<texPath>Facelift/Glasses/CatEye</texPath>
+	</Facelift.FaceFeatureDef>
+
+	<Facelift.FaceFeatureDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Glasses_HornRim</defName>
+		<label>Horn Rim</label>
+		<layerDef>Glasses</layerDef>
+		<commonality>3</commonality>
+		<texPath>Facelift/Glasses/HornRim</texPath>
+	</Facelift.FaceFeatureDef>
+
+	<Facelift.FaceFeatureDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Glasses_Round</defName>
+		<label>Round</label>
+		<layerDef>Glasses</layerDef>
+		<commonality>3</commonality>
+		<texPath>Facelift/Glasses/Round</texPath>
+	</Facelift.FaceFeatureDef>
+
+	<Facelift.FaceFeatureDef ParentName="HumanFacialFeatureBase">
+		<defName>Facelift_Glasses_Square</defName>
+		<label>Square</label>
+		<layerDef>Glasses</layerDef>
+		<commonality>3</commonality>
+		<texPath>Facelift/Glasses/Square</texPath>
 	</Facelift.FaceFeatureDef>
 
 </Defs>

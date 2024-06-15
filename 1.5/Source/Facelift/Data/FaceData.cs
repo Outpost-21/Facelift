@@ -13,7 +13,18 @@ namespace Facelift
     {
         public Pawn pawn;
 
+        public FaceStateDef faceState;
+
         public Dictionary<LayerDef, FaceFeatureDef> faceFeatures = new Dictionary<LayerDef, FaceFeatureDef>();
+
+        public void SetDefForLayer(LayerDef layer, FaceFeatureDef featureDef)
+        {
+            if (faceFeatures.ContainsKey(layer))
+            {
+                faceFeatures[layer] = featureDef;
+                pawn.Drawer.renderer.SetAllGraphicsDirty();
+            }
+        }
 
         public Graphic GetGraphicForLayer(LayerDef layer)
         {
@@ -23,6 +34,16 @@ namespace Facelift
                 faceFeatures.Add(layer, FaceliftUtil.GenerateLayerDef(pawn, layer));
             }
             return faceFeatures[layer].GraphicFor(pawn);
+        }
+
+        public Vector3 GetOffsetForLayer(LayerDef layer)
+        {
+            if (layer == null) { return Vector3.zero; }
+            if (!faceFeatures.ContainsKey(layer))
+            {
+                faceFeatures.Add(layer, FaceliftUtil.GenerateLayerDef(pawn, layer));
+            }
+            return faceFeatures[layer].offset.ToVector3();
         }
 
         public void ExposeData()
